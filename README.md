@@ -1,6 +1,6 @@
 # data-collection-challenge
 
-This repository contains a Python script to visualize the minimum temperature and pressure data on Mars for various terrestrial dates. The data is presented as a bar graph, where each bar represents the minimum temperature (in Celsius) recorded on a specific terrestrial date. It also gets news article previews from Mars Daily News.
+This repository contains a Jupyter Notebook (`mars_weather.ipynb`) to visualize the minimum temperature and pressure data on Mars for various terrestrial date and export the data to a CSV file. Each data visualization is presented as a bar graph, with each bar representing the minimum temperature (in Celsius) or pressure (in Pascals) recorded on a specific terrestrial date. This repository also contains a Jupyter Notebook that parses the Mars Daily News webpage for news article previews.
 
 ## Usage
 
@@ -18,5 +18,5 @@ This repository contains a Python script to visualize the minimum temperature an
 ## Acknowledgments
 
 - The data used in this visualization is sourced from [NASA's Mars Climate Database](https://mars.nasa.gov/insight/weather/).
-- It was collected by the [InSight Lander](https://mars.nasa.gov/insight/mission/overview/), which is part of NASA's [Discovery Program](https://discovery.nasa.gov/).
+- It was collected by the [InSight Lander](https://mars.nasa.gov/insight/mission/overview/), which is part of NASA's [Discovery Program](https://discovery.nasa.gov/), and scraped using `BeautifulSoup` and `splinter`.
 - The news article previews are sourced from [Mars Daily News](https://mars.nasa.gov/rss/api/?feed=weather&category=insight&feedtype=json&ver=1.0).
